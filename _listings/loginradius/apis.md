@@ -7,46 +7,42 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-login
 x-kinRank: "8"
 x-alexaRank: "60839"
 tags: LoginRadius
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/loginradius/master/_listings/loginradius/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Matrix Login Operations API Get the login mechanism to use when logging in.
-  x-api-slug: matrix-login-operations-api
+- name: Login Operations - Get the login mechanism to use when logging in.
+  x-api-slug: login-get
   description: All login stages MUST be mentioned if there is >1 login type.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-loginradius.jpg
   humanURL: http://www.loginradius.com/
-  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1//login
-  tags: Login,Mechanism,To,Use,When,Logging,In
+  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1
+  tags: Login, Users, Authentication, Authentication, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Identities, Profiles, Service
+    API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/loginradius/master/_listings/loginradius/login-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/loginradius/master/_listings/loginradius/login-get-openapi.md
-- name: Matrix Login Operations API Submit a login action.
-  x-api-slug: matrix-login-operations-api
+- name: Login Operations - Submit a login action.
+  x-api-slug: login-post
   description: If this is part of a multi-stage login, there MUST be a session key.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-loginradius.jpg
   humanURL: http://www.loginradius.com/
-  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1//login
-  tags: Submit,Login,Action
+  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1
+  tags: Login, Users, Authentication, Authentication, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Identities, Profiles, Service
+    API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/loginradius/master/_listings/loginradius/login-post-openapi.md
-- name: Matrix Login Operations API
-  x-api-slug: matrix-login-operations-api
-  description: Matrix is an open standard for decentralised communication, providing
-    simple HTTP APIs and open source reference implementations for securely distributing
-    and persisting JSON over an open federation of servers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-loginradius.jpg
-  humanURL: http://www.loginradius.com/
-  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1
-  tags: LoginRadius
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/loginradius/master/_listings/loginradius/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://lloyds.bank.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://loginradius.stack.network
 - type: x-base
   url: https://api.loginradius.com
 - type: x-blog

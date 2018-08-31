@@ -6,14 +6,14 @@ info:
   title: Matrix Login Operations API Submit a login action.
   version: 1.0.0
   description: If this is part of a multi-stage login, there MUST be a session key.
-host: /login
-basePath: http://localhost:8008/_matrix/client/api/v1
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: /login
+basePath: http://localhost:8008/_matrix/client/api/v1
 paths:
   /login:
     get:

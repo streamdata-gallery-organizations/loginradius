@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - LoginRadius",
+	"description": "This is a repository of loginradius APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/loginradius.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://loginradius.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "LoginRadius",
+			"x-api-slug": "loginradius",
+			"description": "Simplify customer authentication and authorization to amplify your business with better understanding of your audience using our customer identity management",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-loginradius.jpg",
+			"humanURL": "http://www.loginradius.com/",
+			"baseURL": ":///login/http://localhost:8008/_matrix/client/api/v1",
+			"tags": "LoginRadius",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/loginradius/master/_listings/loginradius/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "LoginRadius",
+	"include": [
+		{
+			"name": "LoginRadius",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/loginradius/master/_listings/loginradius/apis.yaml"
+		}
+	]
+}
